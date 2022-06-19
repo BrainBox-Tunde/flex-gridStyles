@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+  }
+@font-face {
+    font-family: Big Shoulders Display;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca','Courier New', Courier,;
+}
+
+main{
+    width: 57%;
+    margin:7em auto;
+    display:flex;
+    justify-content: center;
+}
+main div{
+    padding: 2em;
+}
+.item-1{
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+}
+.item-2{
+    background-color:hsl(184, 100%, 22%);
+    width: 100%;
+}
+.item-3{
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+}
+main h1{
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders display';
+    font-weight: 700;
+}
+main div p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+a{
+    text-decoration: none;
+    margin-top: 40px;
+}
+.sedans-btn{
+    color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(31, 77%, 52%);
+}
+.suvs-btn{
+    color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(184, 100%, 22%);
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(179, 100%, 13%);
+}
+img{
+    margin-bottom: 20px;;
+}
+main div p{
+    margin:20px 0px 20px 0px;
+}
+.btn{
+    
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background: hsl(0, 0%, 95%);
+}
+ .btn:hover{
+    background: transparent;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+} 
+.grid-btn{
+    color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(179, 100%, 13%);
+    background-color: darkgoldenrod;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+.grid-btn:hover{
+    background: transparent;
+}
